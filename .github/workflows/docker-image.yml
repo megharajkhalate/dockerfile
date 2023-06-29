@@ -26,6 +26,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
     - uses: docker/build-push-action@v2
       with:
+        name: megharaj
         tags: megharaj:latest
         push: false
 #kk
